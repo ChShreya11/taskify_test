@@ -36,3 +36,10 @@ function myFunction(x) {
 }
 
 console.log("testing");
+
+//=============== ACTUAL DASHBOARD CODE ===============
+
+const todaysTasksContainer = document.querySelector(".TodaysTasks");
+const nextDaysTasksContainer = document.querySelector(".NextdayTasks");
+const thisWeeksTasksContainer = document.querySelector(".ThisWeeksTasks");
+
